@@ -1,12 +1,12 @@
-from algorithm import minimax
+from algorithm import create_game_tree
 import sys
 
 
 def start_game():
     sys.setrecursionlimit(11000)
     boardSize = 3
-    root = minimax(boardSize)
-    print(len(root.children))
+    gameTree = create_game_tree(boardSize)
+    #print(len(gameTree.children))
 
 
 if __name__ == "__main__":

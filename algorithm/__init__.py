@@ -1,1 +1,1 @@
-from .minimax import minimax
+from .minimax import create_game_tree
